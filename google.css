@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  color: black;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial black;
+  letter-spacing: 0.1em;
+}
+
+.space1 {
+    margin: 30px;
+}
+
+.me {
+  background-image: url("g2.jpg");
+  min-height: 15vh;
+  padding: 0vw 0 0vw;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.description {
+  text-align: center;
+  margin: 55px;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  font-size: 1.15em;
+}
+
+.pic2 {
+  background-image: url("g4.jpg");
+  min-height: 60vh;
+  position: relative;
+  transform-style: inherit;
+  width: 50%;
+  height: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 320px;
+  margin-right: 200px;
+}
+
+.pic3 {
+  background-image: url("g3.jpg");
+  min-height: 60vh;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 320px;
+  margin-bottom: 50px;
+  transform-style: inherit;
+  width: 50%;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
